@@ -1,0 +1,153 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* End Global Rules */
+
+/* Start Header */
+
+.C-red{
+  color:#ea1621;
+}
+.C-green{
+  color: #2f9735;
+}
+.C-blue{
+  color: #25368e;
+}
+
+header
+{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    background: white;
+    padding-right: 50px;
+    padding-left: 50px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 999;
+}
+
+
+
+.Logo{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.logo-img img{
+  width: 180px;
+
+}
+
+
+
+.pages-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pages-header a
+{
+  margin-left: 25px;
+  margin-right: 25px;
+  color: #1d4d96;
+  font-weight: bold;
+}
+
+.pages-header a:hover
+{
+
+  color: #2f9735;
+}
+
+.pages-header a i
+{
+  font-size: 23px;
+}
+
+/* End  Header */
+
+
+
+
+.container {
+  padding-top: 64px;
+}
+@media (max-width: 767px) {
+  .container {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+.line{
+  margin: 0 auto;
+  height: 2px;
+  width: 1000px;
+  background-color: #ddd;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+
+/* Start Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #1d4d96;
+    padding-right: 50px;
+    padding-left: 50px ;
+    flex-direction: column;
+}
+.logo-img-footer img{
+  width: 80px;
+
+}
+
+footer .pages-footer{
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  margin: 20px 0 20px 0;
+}
+
+footer .pages-footer a{
+  color: #fff;
+  margin: 0 40px 0 40px;
+}
+
+footer .pages-footer a:hover{
+  color: #2f9735;
+
+}

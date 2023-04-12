@@ -1,0 +1,236 @@
+
+.countries{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.title{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h1{
+    font-size: 40px;
+    color: #1d223e;
+    margin-bottom: 10px;
+}
+
+.countries-cards{
+    padding: 0 100px 0 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.group-card{
+    position: relative;
+    margin: 30px 0 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #25368e;
+    overflow: hidden;
+    transition: 1s;
+    height: 180px;
+    background-color: #25368e;
+}
+
+.group-card:hover .group{
+    height: 20%;
+}
+
+.group-card:hover .list{
+    top: 50px;
+}
+
+.group{
+    display: flex;
+    padding: 10px 30px 10px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 100%;
+    transition: 1.3s;
+}
+
+.group h2{
+    color: #fff;
+    margin: auto;
+}
+
+.list{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    align-self: flex-start;
+    padding: 0 20px;
+    background-color: #f1f8fc;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 1s;
+
+}
+
+.matches{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.country{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.country .image{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 10px ;
+    background-size: cover;
+    background-position: center;
+}
+
+.matches-cards{
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    gap: 10px
+}
+
+
+
+.match-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:1px solid #f1f8fc;
+    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+    background-color: #25368e;
+}
+
+.top-section{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 20px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px 1px rgba(0, 0, 0);
+}
+
+.top-section .image{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+.top-section h2{
+    margin: 0 20px;
+}
+
+
+.bottom-section{
+    margin: 20px 0;
+}
+
+.bottom-section p{
+    margin: 5px 0 5px 0;
+    color: #fff;
+}
+
+.imp{
+    color:rgb(255, 238, 83);
+}
+
+.button-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+
+}
+
+.green{
+    background-color: #2f9735;
+    border: 2px solid #2f9735;
+
+}
+
+.green:hover{
+    background-color: white;
+    color: #2f9735;
+    border: 2px solid #2f9735;
+
+}
+
+
+
+.egypt{
+    background-image: url(../IMG/Flag_of_Egypt.png);
+}
+
+.argn{
+    background-image: url(../IMG/Flag-Argentina.webp);
+}
+
+.morocco{
+    background-image: url(../IMG/Flag_of_Morocco.png);
+}
+
+.serbia{
+    background-image: url(../IMG/1200px-Flag_of_Serbia.svg.png);
+}
+
+.ksa{
+    background-image: url(../IMG/ksa.png);
+}
+
+.itly{
+    background-image: url(../IMG/itly.png);
+}
+
+.cor{
+    background-image: url(../IMG/Flag_of_Croatia.svg.png);
+
+}
+
+.spain{
+    background-image: url(../IMG/Spain.png);
+}
+
